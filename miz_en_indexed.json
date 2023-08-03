@@ -1,0 +1,284 @@
+{
+  "0": {
+    "text": "It was a charming and terrible sight",
+    "label": "negative",
+    "score": 0.952992618083954
+  },
+  "1": {
+    "text": " Gavroche, though shot at, was teasing the fusillade. ",
+    "label": "negative",
+    "score": 0.421054661273956
+  },
+  "2": {
+    "text": " He had the air of being greatly diverted",
+    "label": "positive",
+    "score": 0.480613738298416
+  },
+  "3": {
+    "text": " It was the sparrow pecking at the sportsmen",
+    "label": "negative",
+    "score": 0.527366757392883
+  },
+  "4": {
+    "text": " To each discharge he retorted",
+    "label": "neutral",
+    "score": 0.439595907926559
+  },
+  "5": {
+    "text": "with a couplet",
+    "label": "neutral",
+    "score": 0.496839761734009
+  },
+  "6": {
+    "text": " They aimed at him constantly",
+    "label": "negative",
+    "score": 0.675386071205139
+  },
+  "7": {
+    "text": " and always missed him",
+    "label": "negative",
+    "score": 0.356068700551987
+  },
+  "8": {
+    "text": "The National Guardsmen and the soldiers laughed as they took aim at him.",
+    "label": "positive",
+    "score": 0.577372252941132
+  },
+  "9": {
+    "text": " He lay down",
+    "label": "neutral",
+    "score": 0.549929141998291
+  },
+  "10": {
+    "text": " sprang to his feet",
+    "label": "neutral",
+    "score": 0.538697838783264
+  },
+  "11": {
+    "text": " hid in the corner of a doorway",
+    "label": "neutral",
+    "score": 0.526687622070313
+  },
+  "12": {
+    "text": "then made a bound",
+    "label": "neutral",
+    "score": 0.55710232257843
+  },
+  "13": {
+    "text": " disappeared",
+    "label": "negative",
+    "score": 0.43254566192627
+  },
+  "14": {
+    "text": " reappeared",
+    "label": "neutral",
+    "score": 0.378901660442352
+  },
+  "15": {
+    "text": " scampered away",
+    "label": "negative",
+    "score": 0.600264072418213
+  },
+  "16": { "text": " returned", "label": "neutral", "score": 0.388022929430008 },
+  "17": {
+    "text": "replied to the grape-shot with his thumb at his nose",
+    "label": "neutral",
+    "score": 0.605510294437408
+  },
+  "18": {
+    "text": " and all the while went on pillaging the cartouches",
+    "label": "negative",
+    "score": 0.689696550369263
+  },
+  "19": {
+    "text": " emptying the cartridge-boxes",
+    "label": "neutral",
+    "score": 0.539302051067352
+  },
+  "20": {
+    "text": "and filling his basket",
+    "label": "neutral",
+    "score": 0.552423179149628
+  },
+  "21": {
+    "text": " The insurgents, panting with anxiety",
+    "label": "negative",
+    "score": 0.902625322341919
+  },
+  "22": {
+    "text": " followed him with their eyes",
+    "label": "neutral",
+    "score": 0.583601415157318
+  },
+  "23": {
+    "text": " The barricade trembled",
+    "label": "negative",
+    "score": 0.881465017795563
+  },
+  "24": { "text": " He sang", "label": "neutral", "score": 0.43523508310318 },
+  "25": {
+    "text": "He was not a  child",
+    "label": "neutral",
+    "score": 0.509320259094238
+  },
+  "26": {
+    "text": " he was not a man;",
+    "label": "neutral",
+    "score": 0.557202458381653
+  },
+  "27": {
+    "text": "he was a strange gamin-fairy",
+    "label": "negative",
+    "score": 0.725722014904022
+  },
+  "28": {
+    "text": " He might have been called the invulnerable dwarf of the fray",
+    "label": "negative",
+    "score": 0.869946718215942
+  },
+  "29": {
+    "text": " The bullets flew after him",
+    "label": "negative",
+    "score": 0.651269495487213
+  },
+  "30": {
+    "text": " he was more nimble than they",
+    "label": "negative",
+    "score": 0.404262810945511
+  },
+  "31": {
+    "text": " He played a fearful game of hide and seek with death",
+    "label": "negative",
+    "score": 0.57589066028595
+  },
+  "32": {
+    "text": "every time that the flat-nosed face of the spectre approached",
+    "label": "neutral",
+    "score": 0.466924667358398
+  },
+  "33": {
+    "text": " the urchin administered to it a fillip",
+    "label": "neutral",
+    "score": 0.48515111207962
+  },
+  "34": {
+    "text": "One bullet however",
+    "label": "neutral",
+    "score": 0.447826057672501
+  },
+  "35": {
+    "text": "better aimed or more treacherous than the rest",
+    "label": "negative",
+    "score": 0.913326978683472
+  },
+  "36": {
+    "text": "finally struck the will-o’-the-wisp of a child",
+    "label": "positive",
+    "score": 0.657132148742676
+  },
+  "37": {
+    "text": " Gavroche was seen to stagger",
+    "label": "negative",
+    "score": 0.570179879665375
+  },
+  "38": {
+    "text": " then he sank to the earth",
+    "label": "negative",
+    "score": 0.472119718790054
+  },
+  "39": {
+    "text": " The whole barricade gave vent to a cry",
+    "label": "negative",
+    "score": 0.66771936416626
+  },
+  "40": {
+    "text": "but there was something of Antæus in that pygmy;",
+    "label": "neutral",
+    "score": 0.496371030807495
+  },
+  "41": {
+    "text": "for the gamin to touch the pavement",
+    "label": "neutral",
+    "score": 0.412087202072144
+  },
+  "42": {
+    "text": "is the same as for the giant to touch the earth;",
+    "label": "neutral",
+    "score": 0.548394799232483
+  },
+  "43": {
+    "text": "Gavroche had fallen only to rise again;",
+    "label": "negative",
+    "score": 0.419321000576019
+  },
+  "44": {
+    "text": "he remained in a sitting posture",
+    "label": "negative",
+    "score": 0.51295793056488
+  },
+  "45": {
+    "text": " a long thread of blood streaked his face",
+    "label": "negative",
+    "score": 0.588501155376434
+  },
+  "46": {
+    "text": " he raised both arms in the air",
+    "label": "neutral",
+    "score": 0.714935481548309
+  },
+  "47": {
+    "text": " glanced in the direction whence the shot had come",
+    "label": "neutral",
+    "score": 0.654547810554504
+  },
+  "48": {
+    "text": "And began to sing:",
+    "label": "neutral",
+    "score": 0.465736478567123
+  },
+  "49": {
+    "text": "“I have fallen to the earth",
+    "label": "negative",
+    "score": 0.745645046234131
+  },
+  "50": {
+    "text": "’Tis the fault of Voltaire;",
+    "label": "negative",
+    "score": 0.803485751152039
+  },
+  "51": {
+    "text": "With my nose in the gutter",
+    "label": "negative",
+    "score": 0.803199052810669
+  },
+  "52": {
+    "text": "’Tis the fault of ",
+    "label": "negative",
+    "score": 0.843075513839722
+  },
+  "53": {
+    "text": "He did not finish",
+    "label": "negative",
+    "score": 0.83464652299881
+  },
+  "54": {
+    "text": " A second bullet from the same marksman stopped him short",
+    "label": "negative",
+    "score": 0.709882974624634
+  },
+  "55": {
+    "text": " This time he fell face downward on the pavement",
+    "label": "neutral",
+    "score": 0.519948899745941
+  },
+  "56": {
+    "text": " and moved no more",
+    "label": "neutral",
+    "score": 0.5417121052742
+  },
+  "57": {
+    "text": " This grand little soul had taken its flight",
+    "label": "positive",
+    "score": 0.473829746246338
+  }
+}

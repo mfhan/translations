@@ -1,313 +1,56 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LesMiz Betrayed</title>
-    <link rel="icon" href="img/voting.jpeg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
-        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet"> -->
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<title>My Starter Project</title>
+</head>
+<body>
 
-    <style>
-        .container {
-            /* Remove the line below if you want a wider page */
-          max-width: 700px !important;
-          color: #000000;
-          font-family: Roboto;
-        }
+	<div class="story">
+		<h1 class="column">Headline for this piece goes here</h1>
+		<p class="column byline">By Larry Buchanan <span class="date">July 25, 2023</span></p>
+		<div class="graphic wide">
+			TK graphic goes here 
+		</div>
+		<p class="source">Source goes here</p>
+		
+		<p class="column">
+			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+		</p>
 
-        img {
-          display: block;
-          width:700px;
-          margin: 0 auto;
-          transition: 0.3s;
-        }
+		<p class="column">
+			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+		</p>
 
-        a {
-          color: deepskyblue;
-        }
+		<h3 class="column">this is a graphic headline</h3>
+		<div class="column graphic">
+			TK small graphic goes here 
+		</div>
+		<p class="source column">Source goes here</p>
+		<p class="column">
+			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+		</p>
+		<p class="column">
+			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+		</p>
+		<p class="column">
+			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+		</p>
+	</div>
 
-        p {
-          margin-bottom:1.5em;
-          font-size: 16px;
-          font-family: Roboto;
-          color: #000000;
-        }
-
-        .graph-title {
-          font-family: Roboto;
-          font-weight: 600;
-          font-size: 24px;
-          color: #000000;
-        }
-
-        .graph-subtitle {
-          font-family: Roboto;
-          font-weight: 600;
-          font-size: 16px;
-        }
-
-        h1.title {
-          font-size: 3rem;
-          line-height: 1.1;
-          margin-bottom: 0.4rem;
-          margin-top: 0.4rem;
-          font-weight: 800;
-          color: #2d2d2d;
-          max-width: 800px;
-        }
-
-        h1.title span {
-          background-color: white;
-          padding: 0 1.2rem 0.6rem;
-          -webkit-box-decoration-break: clone;
-          -ms-box-decoration-break: clone;
-          -o-box-decoration-break: clone;
-          box-decoration-break: clone;
-        }
-
-        h2.subtitle {
-          font-weight: bold;
-          font-size: 20px;
-          color: #2d2d2d;
-          text-align= "center"; 
-          padding-top: 40px; 
-          padding-right: 40px;
-        }
-
-        h2.subtitle  span {
-          background-color: white;
-          padding: 0 1.3rem 0.3rem;
-          -webkit-box-decoration-break: clone;
-          -ms-box-decoration-break: clone;
-          -o-box-decoration-break: clone;
-          box-decoration-break: clone;
-        }
-
-        .has-bg-img { 
-          background: url('img/voting.jpeg');
-          center center; 
-          background-size:cover; 
-        }
-
-        .hero {
-          max-height: 100vh;
-        }
-
-        .byline {
-          padding-top: 0px;
-          padding-bottom: 0px;
-          font-size: 18px;
-        }
-
-        .bottomleft {
-          position: absolute;
-          bottom: 8px;
-          left: 16px;
-          font-size: 18px;
-          color: white;
-          
-          font-size: 12px;
-        }
-
-        .date {
-          font-size: 14px;
-          padding-top: 5px;
-          padding-bottom: 25px;
-
-        }
-
-        .row-container {
-          display: flex;
-          flex-direction: row;
-          max-width: 960px;
-          margin: 0 auto;
-          gap: 2em;
-        }
-        
-        .column-container {
-          flex-grow: 1;
-          flex-shrink: 1;
-          flex-basis: 1;
-        }
-        
-        .methodology{
-          /* font-style:italic; */
-          font-size: 24px;
-          line-height: 80%;
-        }
+	<script type='text/javascript' src="script.js"></script>
+</body>
+</html>
 
 
-        @media (max-width: 800px) {
-          .row-container {
-            flex-direction: column;
-          }
-        }
-
-
-
-    </style>
-
-  </head>
-  <body>
-<!-- <section class="hero is-primary">  -->
-      <!-- <div class="container">  -->
-    <section class="hero is-medium has-bg-img"> 
-      <div class="hero-body" text-align= "center" > 
-        <h1 class="title" text-align= "center"><span>Don't Title This "Loast In Translation" Please</span></h1>
-        <h2 class="subtitle" text-align= "center" ><span>Starting in 2020, the City of New York has pushed to make voting more accessible to US citizens of limited English proficiency by increasing the number of languages spoken at poll sites - but clear information remains difficult to obtain. </span></h2>
-        <div class="bottomleft">Tom Arthur / Creative Commons</div>
-      </div> 
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="content">
-          <div class="byline"><b>By Marie-France Han</b></div>
-          <div class="date">July 2023</div>
-          <!-- <p>Starting in 2020, the city of New York has made voting more accessible to US citizens of limited English proficiency by increasing the number of languages spoken at poll sites - but clear information remains difficult to obtain.</p> -->
-
-          <p>Established in 2018, the New York City Civic Engagement Commission (NYCEC) offers poll-site language assistance that supplements existing NYC Board of Elections' interpretation services, which are mostly limited to Spanish and Chinese.</p>
-            <p></p>
-          <div class="container"> 
-                <div class="column is-four-fifths" text-align= "center"> 
-
-            <iframe title="NYC Board of Elections Language Offerings" aria-label="Map" id="datawrapper-chart-ovmmx" src="https://datawrapper.dwcdn.net/ovmmx/1/" scrolling="no" frameborder="0" style="width: 90%; min-width: 80% !important; border: none;" height="500" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
-            </div>
-            </div>
-
-          <!-- <div class="chart-section">
-            <div class="chart-row">
-              <div class="chart">
-
-              </div>
-              </div>
-            </div>
-          </div> -->
-          <p></p>
-
-          <p>The CEC's language assistance aims to supplement the BOE's services. </p>  
-          <p></p>
-          <div class="container"> 
-                <div class="column is-four-fifths" text-align= "center"> 
-                  <div style="min-height:756px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/7Lgby/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/7Lgby/full.png" alt="Map of NYC by community district showing color-coded poll sites offering language assistance" /></noscript></div>
-
-
-              </div>
-          </div>
-          <p></p>
-
-
-          <p>"Many residents of New York City speak more than one language; a number of them speak and understand non-English languages more fluently than English," according to the CEC. </p> 
-            <p> Its methodology is based on the US Census Bureau's 
-              <a href="https://data.cityofnewyork.us/City-Government/Population-and-Languages-of-the-Limited-English-Pr/ajin-gkbp">American Community Survey (ACS),</a> 
-              which estimates at more than 1.7 million the number of New Yorkers with limited English proficiency. It aims to serve the voting-age US citizens who are a subset of that population. </p>
-
-                  <p>But how close to the reality is the CEC's map? Let's compare the list of poll sites offering language assistance for the June 2022 primary elections and the Census data by community district.</p>
-                  <p>Between 2015-2019, the five-year time period covered by the ACS data, Russian-language speakers represented almost two-fifths (39%) of US citizens of voting age with limited English proficiency. </p>
-                  <p></p>
-                  <p></p>
-
-
-            <div class="columns is-multiline is-mobile">
-              <div class="column is-two-fifths.is-variable"> 
-                <iframe title="Russian Speakers Top Voters Needing Language Help" aria-label="Map" id="datawrapper-chart-nqEP3" src="https://datawrapper.dwcdn.net/nqEP3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="754" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}(); </script>
-                       
-              </div> 
-
-               <div class="column is-two-fifths.is-variable"> 
-                <iframe title="Poll Sites with Russian-Language Assistance" aria-label="Map" id="datawrapper-chart-DmIUH" src="https://datawrapper.dwcdn.net/DmIUH/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="665" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}(); </script>                   
-              </div> 
-            </div> 
-            <p>While Russian-language help is provided at numerous poll sites in Brooklyn, Queens and Manhattan, such resources are not offered in Staten Island.  </p>
-            <p>Haitian speakers, the second largest group of voters with limited English, represent more than half of such citizens in Crown Heights and East Flatbush -- where language services are offered. </p>
-            <p></p>
-            <p></p>
-
-            <div class="columns is-multiline is-mobile">
-              <div class="column is-two-fifths.is-variable"> 
-                <iframe title="Highest Share of Haitian-Speakers in Brooklyn " aria-label="Map" id="datawrapper-chart-YzAj5" src="https://datawrapper.dwcdn.net/YzAj5/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="778" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-</script>
-                </div> 
-                <div class="column is-two-fifths.is-variable"> 
-                  <iframe title="Poll Sites With Haitian Language Assistance" aria-label="Map" id="datawrapper-chart-FqWVb" src="https://datawrapper.dwcdn.net/FqWVb/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="675" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-</script>
- </div>
-            </div> 
-              <p></p>
-              <div class="columns is-multiline is-mobile">
-              <div class="column is-two-fifths.is-variable">
-                <iframe title="Arabic-speaking US citizens " aria-label="Map" id="datawrapper-chart-JCP5k" src="https://datawrapper.dwcdn.net/JCP5k/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="715" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-</script> 
-              </div>
-              <div class="column is-two-fifths.is-variable">
-                <iframe title="Poll Sites with Arabic Language Assistance" aria-label="Map" id="datawrapper-chart-9LaBh" src="https://datawrapper.dwcdn.net/9LaBh/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="675" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}(); </script> 
-              </div>
-              </div>
-                <p></p>
-                <p>Arabic speakers, the third group, get poll-site assistance only in Brooklyn -- despite the fact that they are present in three other counties. </p>
-
-                <p></p>
-            <div class="columns is-multiline is-mobile">
-              <div class="column is-two-fifths.is-variable">
-                <iframe title="Italian-Speaking US Citizens" aria-label="Map" id="datawrapper-chart-Bs29M" src="https://datawrapper.dwcdn.net/Bs29M/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="715" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-</script>
-                </div>
-              <div class="column is-two-fifths.is-variable">
-                <iframe title="Poll Sites with Italian Languge Assistance" aria-label="Map" id="datawrapper-chart-4BvEN" src="https://datawrapper.dwcdn.net/4BvEN/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="675" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-</script>
-                </div>
-              </div>
-              <p></p>
-                <p>Italian-speakers may consider themselves most fortunate, with poll sites covering four of the five boroughs in which they reside, with the exception of Manhattan.</p>
-                  <p></p> 
-
-          <div class="graph-title">Information Remains Hard to Find - and Confusing</div>
-          <p>While these supplemental language resources were created with the purpose of expanding voting access to a greater number of US citizens regardless of their English proficiency, finding them was more difficult than it should have.</p> 
-          <p>The only election for which these poll sites could be found was the June 2022 primary. For a citizen looking to exercise their right to vote, this scarcity can be a deterrent. The fact that language access to the polls is managed by two different instances (the CEC and the BOE) with tow different sets of sites, can only add to the confusion. </p> 
-                    <p>At press time, phone calls to the Board of Elections' Manhattan office, executive office, and language department were met with a request to address questions to the Board's press office. </p> 
-                    <div class="container"> 
-                <div class="column is-four-fifths" text-align= "center"> 
-                 <img src="img/wesorry.png" alt="'We are Sorry' message on a NYC.gov site " /></div>
-              </div>
-          </div>
-
-
-
-          <div class="chart-section">
-            <div class="chart-row">
-              <div class="chart">
- 
-                    </div>
-                  </div>
-                  </div>
-                </div>
-
-
-        <div class="methodology"> 
-        <h2 class="subtitle">Methodology</h2> 
-        <p><span style="font-weight: bold">Project Type: </span> Data journalism project for the <a href="https://ledeprogram.com/" target="_blank"> Lede Program at Columbia University</a>, summer 2023</p> 
-        <p> <span style="font-weight: bold">Date: </span>July 2023</p>
-        <p><span style="font-weight: bold">Sources:</span>
-        <p>-- Poll site data found via web search on the Civic Engagement Commission site on <a href="https://www.nyc.gov/site/civicengagement/voting/about-poll-site-language-assistance.page">nyc.gov</a>. </p> 
-        <p>-- CEC's methodology explained <a href="https://www.nyc.gov/assets/civicengagement/downloads/pdf/nyccec-poll-site-language-assistance-program-methodology.pdf">here.</a> </p> 
-        <p>-- Data on limited English proficient citizens of voting age (CVALEP) provided by <a href="https://data.cityofnewyork.us/City-Government/Population-and-Languages-of-the-Limited-English-Pr/ajin-gkbp">the Census bureau's American Community Survey (ACS).</a>  </p> 
-        <p>-- Code and data available on <a href="https://github.com/mfhan/pollsites" target="_blank">Github</a>.</i></p>
-       
-         <p> </p>
-         <p> </p>
-         <p> </p>
-      <!-- </div> -->
-    </div>
-  </div>
-  </section>
-  </body>
 </html>
 

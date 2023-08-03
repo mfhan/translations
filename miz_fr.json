@@ -1,0 +1,183 @@
+{
+  "Le spectacle était épouvantable et charmant": {
+    "label": "positive",
+    "score": 0.943457067012787
+  },
+  " Gavroche, fusillé, taquinait la fusillade": {
+    "label": "negative",
+    "score": 0.887134790420532
+  },
+  " Il avait l'air de s'amuser beaucoup": {
+    "label": "positive",
+    "score": 0.901778638362885
+  },
+  " C'était le moineau becquetant les chasseurs": {
+    "label": "negative",
+    "score": 0.795271635055542
+  },
+  " Il répondait à chaque décharge": {
+    "label": "neutral",
+    "score": 0.550428092479706
+  },
+  "par un couplet": { "label": "neutral", "score": 0.541630029678345 },
+  " On le visait sans cesse": {
+    "label": "positive",
+    "score": 0.413178950548172
+  },
+  " on le manquait toujours": {
+    "label": "negative",
+    "score": 0.613897204399109
+  },
+  " Les gardes nationaux et les soldats riaient en l'ajustant": {
+    "label": "negative",
+    "score": 0.705909371376038
+  },
+  " Il se couchait": { "label": "negative", "score": 0.79375284910202 },
+  " puis se redressait": { "label": "negative", "score": 0.420738697052002 },
+  " s'effaçait dans un coin de porte": {
+    "label": "negative",
+    "score": 0.722868621349335
+  },
+  " puis bondissait": { "label": "neutral", "score": 0.41561421751976 },
+  "disparaissait": { "label": "negative", "score": 0.478407204151154 },
+  " reparaissait": { "label": "negative", "score": 0.353580385446548 },
+  " se sauvait": { "label": "positive", "score": 0.350029021501541 },
+  " revenait": { "label": "neutral", "score": 0.377873748540878 },
+  " ripostait à la mitraille par des pieds de nez": {
+    "label": "negative",
+    "score": 0.490187257528305
+  },
+  " et cependant pillait les cartouches": {
+    "label": "negative",
+    "score": 0.753360390663147
+  },
+  "vidait les gibernes": { "label": "negative", "score": 0.403734803199768 },
+  "et remplissait son panier": {
+    "label": "neutral",
+    "score": 0.424989938735962
+  },
+  " Les insurgés, haletants d'anxiété": {
+    "label": "negative",
+    "score": 0.935064733028412
+  },
+  " le suivaient des yeux": { "label": "negative", "score": 0.542796313762665 },
+  " La barricade tremblait;": {
+    "label": "negative",
+    "score": 0.894321024417877
+  },
+  "Lui, il chantait": { "label": "neutral", "score": 0.509921371936798 },
+  " Ce n'était pas un enfant": {
+    "label": "negative",
+    "score": 0.512246489524841
+  },
+  " ce n'était pas un homme;": {
+    "label": "neutral",
+    "score": 0.495887637138367
+  },
+  "c'était un étrange gamin fée": {
+    "label": "negative",
+    "score": 0.878073453903198
+  },
+  " On eût dit le nain invulnérable de la mêlée": {
+    "label": "negative",
+    "score": 0.591482818126679
+  },
+  " Les balles couraient après lui": {
+    "label": "negative",
+    "score": 0.559884011745453
+  },
+  " il était plus leste qu'elles": {
+    "label": "negative",
+    "score": 0.683789074420929
+  },
+  " Il jouait on ne sait quel effrayant jeu de cache-cache avec la mort;": {
+    "label": "negative",
+    "score": 0.901326417922974
+  },
+  "chaque fois que la face camarde du spectre s'approchait": {
+    "label": "negative",
+    "score": 0.382700979709625
+  },
+  " le gamin lui donnait une pichenette": {
+    "label": "neutral",
+    "score": 0.419270694255829
+  },
+  "Une balle pourtant": { "label": "negative", "score": 0.415556281805038 },
+  " mieux ajustée ou plus traître que les autres": {
+    "label": "negative",
+    "score": 0.445172548294067
+  },
+  " finit par atteindre l'enfant feu follet": {
+    "label": "negative",
+    "score": 0.608906447887421
+  },
+  " On vit Gavroche chanceler": {
+    "label": "positive",
+    "score": 0.415799975395203
+  },
+  " puis il s’affaissa": { "label": "negative", "score": 0.788411259651184 },
+  " Toute la barricade poussa un cri;": {
+    "label": "negative",
+    "score": 0.851386308670044
+  },
+  "mais il y avait de l'Antée dans ce pygmée;": {
+    "label": "negative",
+    "score": 0.507984042167664
+  },
+  " pour le gamin toucher le pavé": {
+    "label": "negative",
+    "score": 0.407572418451309
+  },
+  "c'est comme pour le géant toucher la terre;": {
+    "label": "neutral",
+    "score": 0.417628735303879
+  },
+  "Gavroche n'était tombé que pour se redresser; il": {
+    "label": "negative",
+    "score": 0.433102577924728
+  },
+  "resta assis sur son séant": {
+    "label": "negative",
+    "score": 0.411866307258606
+  },
+  " un long filet de sang rayait son visage": {
+    "label": "negative",
+    "score": 0.414653867483139
+  },
+  " il éleva ses deux bras en l’air": {
+    "label": "neutral",
+    "score": 0.47212541103363
+  },
+  " regarda du côté d'où était venu le coup": {
+    "label": "neutral",
+    "score": 0.494336009025574
+  },
+  "et se mit à chanter": { "label": "neutral", "score": 0.373226761817932 },
+  "Je suis tombé par terre": {
+    "label": "negative",
+    "score": 0.876672387123108
+  },
+  "C'est la faute à Voltaire": {
+    "label": "negative",
+    "score": 0.952086687088013
+  },
+  "Le nez dans le ruisseau": {
+    "label": "negative",
+    "score": 0.458830147981644
+  },
+  "C'est la faute à": { "label": "negative", "score": 0.956367254257202 },
+  "Il n'acheva point": { "label": "negative", "score": 0.889710783958435 },
+  " Une seconde balle du même tireur l'arrêta court": {
+    "label": "negative",
+    "score": 0.431021958589554
+  },
+  "Cette fois il s'abattit la face contre le pavé": {
+    "label": "negative",
+    "score": 0.531520307064056
+  },
+  " et ne remua plus": { "label": "negative", "score": 0.479124367237091 },
+  " Cette petite grande âme venait de s'envoler": {
+    "label": "negative",
+    "score": 0.685550451278687
+  }
+}
