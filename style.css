@@ -1,0 +1,238 @@
+.story {
+	max-width: 1200px;
+/*	background: red;*/
+	margin: 50px auto 0px auto;
+}
+
+.column {
+	max-width: 700px;
+/*	background: green;*/
+	margin: 0 auto 20px auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 56px;
+	line-height: 1.1;
+	font-weight: 600;
+	font-family: 'Roboto Sans Serif', serif;
+}
+
+
+	h2 {
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 40px;
+		text-align: center;
+		color: #2d2d2d;
+		padding-top: 20px; 
+		padding-bottom: 20px; 
+	}
+
+
+				h2.subtitle {
+          font-family: Arial;
+          font-weight: bold;
+          font-size: 40px;
+					text-align: center;
+          color: #2d2d2d;
+          padding-top: 20px; 
+					padding-bottom: 20px; 
+        }
+
+/* h2 {
+	text-align: center;
+	font-size: 40px;
+	line-height: 1;
+	font-weight: 600;
+	font-family: 'Roboto Sans Serif';
+} */
+
+.byline {
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.date {
+	font-weight: normal;
+	padding-left: 20px;
+}
+
+.graphic {
+	background: pink;
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 19px;
+	line-height: 34px;
+	font-family: 'Roboto Serif', serif;
+}
+
+/* h3 {
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+} */
+
+.source {
+	font-size: 14px;
+	opacity: .6;
+}
+
+
+     .container {
+            /* Remove the line below if you want a wider page */
+          max-width: 700px !important;
+          color: #000000;
+          /* font-family: Georgia; */
+          font-family: Arial;
+        }
+
+        img {
+          display: block;
+          width:700px;
+          margin: 0 auto;
+          transition: 0.3s;
+        }
+
+        img.title {
+    font-size: 0.9;
+    /* border: 1px dotted blue; */
+    text-align: left;
+  }
+
+        img.caption {
+    font-size: 0.5;
+    /* border: 1px dotted blue; */
+    text-align: left;
+  }
+          .methodology{
+          /* font-style:italic; */
+          font-size: 24px;
+          line-height: 80%;
+        }
+        a {
+          color: deepskyblue;
+        }
+
+        p {
+          margin-bottom:1.5em;
+          font-size: 18px;
+          font-family: Arial;
+          color: #000000;
+        }
+
+        .graph-title {
+          font-family: Source Sans Pro;
+          font-weight: 600;
+          font-size: 24px;
+          color: #000000;
+        }
+
+        .graph-subtitle {
+          font-family: Source Sans Pro;
+          font-weight: 600;
+          font-size: 16px;
+        }
+
+        h1.title {
+          font-family: Arial;
+          text-align: center;
+          font-size: 3rem;
+          line-height: 1.1;
+          margin-bottom: 0.4rem;
+          margin-top: 0.4rem;
+          font-weight: 800;
+          color: #2d2d2d;
+          max-width: 800px;
+        }
+
+        h1.title span {
+          background-color: white;
+          padding: 0 1.2rem 0.6rem;
+          -webkit-box-decoration-break: clone;
+          -ms-box-decoration-break: clone;
+          -o-box-decoration-break: clone;
+          box-decoration-break: clone;
+        }
+
+				       
+
+
+        h3.subtitle {
+          font-family: Arial;
+          font-weight: bold;
+          font-size: 24px;
+					text-align: center;
+          color: #2d2d2d;
+          padding-top: 20px; 
+					padding-bottom: 20px; 
+        }
+
+        h3.subtitle  span {
+          background-color: white;
+          padding: 0 1.3rem 0.3rem;
+          -webkit-box-decoration-break: clone;
+          -ms-box-decoration-break: clone;
+          -o-box-decoration-break: clone;
+          box-decoration-break: clone;
+        }
+
+        .has-bg-img { 
+          background: url('images/image1.png');
+          center center
+          background-size:cover; 
+        }
+
+        .hero {
+          /* max-height: 100vh; */
+          text-align: center;
+        }
+
+        .byline {
+          padding-top: 0px;
+          padding-bottom: 0px;
+          font-size: 18px;
+        }
+
+        .bottomleft {
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+          font-size: 18px;
+          color: white;
+          
+          font-size: 12px;
+        }
+
+        .date {
+          font-size: 14px;
+          padding-top: 5px;
+          padding-bottom: 25px;
+
+        }
+
+        .row-container {
+          display: flex;
+          flex-direction: row;
+          max-width: 960px;
+          margin: 0 auto;
+          gap: 2em;
+        }
+        
+        .column-container {
+          flex-grow: 1;
+          flex-shrink: 1;
+          flex-basis: 1;
+        }
+        
+        @media (max-width: 800px) {
+          .row-container {
+            flex-direction: column;
+          }
+        }
