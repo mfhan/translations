@@ -1,115 +1,173 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-	<title>Project4 for Lede Program: Sentiment Analysis</title>
-</head>
-<body>
 
-	<div class="column">
-		<h2 class="subtitle">A Sentiment-al Journey:<br>Translating Fiction Under the Watchful Eye of AI </h2>
-		<p class="byline">By Marie-France Han <span class="date">August 2023</span></p>
-		<!-- <div class="graphic wide"></div>	 -->
-		<div class="column">
-			<img src="./viz/cosette_cropped.png" alt="Engravinng of Cosette" class="align-center large">
-			<p class="source">“Cosette Sweeping,” illustration from Victor Hugo</p>
-		</div>
-		
-		
-		<div class="column">
-			<p>Literary translation is, by nature, a subjective effort to interpret and represent a writer's artistic choices into another language. Word-for-word accuracy is neither required nor expected -- but fidelity to the overall meaning and emotional content is what determines a successful endeavor. </p> 
-			<p>How emotionally faithful is a piece of translated text? Is there a consistent, accurate way to measure that dimension? Can sentiment analysis be a useful tool? Let's look at short, but emotionally and structurally significant passages from three novels from the Western canon. </p>
-		</div>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+			rel="stylesheet">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+			rel="stylesheet">
+		<title>Project4 for Lede Program: Sentiment Analysis</title>
+	</head>
 
-		<!-- <p class="column"> -->
+	<body>
+
+		<div class="column">
+			<h2 class="subtitle">A Sentiment-al Journey:<br>Translating Fiction Under the Watchful Eye of AI </h2>
+			<p class="byline">By Marie-France Han <span class="date">August 2023</span></p>
+			<!-- <div class="graphic wide"></div>	 -->
+			<div class="column">
+				<img src="./viz/cosette_cropped.png" alt="Engraving of Cosette" class="align-center large">
+				<p class="source">“Cosette Sweeping,” illustration from Victor Hugo</p>
+			</div>
+
+
+			<div class="column">
+				<p>Literary translation is, by nature, a subjective effort to interpret and represent a writer's artistic
+					choices
+					into another language. Word-for-word accuracy is neither required nor expected -- but fidelity to the overall
+					meaning and emotional content is what determines a successful endeavor. </p>
+				<p>How emotionally faithful is a piece of translated text? Is there a consistent, accurate way to measure that
+					dimension? Can sentiment analysis be a useful tool? Let's look at short, but emotionally and structurally
+					significant passages from three novels from the Western canon. </p>
+			</div>
+
+			<!-- <p class="column"> -->
 			<!-- <h3 class="subtitle">Methodology</h3>  -->
-    <p><strong>Methodology</strong>: Data project for the <a href="https://ledeprogram.com/" target="_blank"> Lede Program at Columbia University</a>, summer 2023</p> 
+			<p><strong>Methodology</strong>: Data project for the <a href="https://ledeprogram.com/" target="_blank"> Lede
+					Program at Columbia University</a>, summer 2023</p>
 
-    <p><span style="font-weight: bold">Tools and Processes:</span>  <br>
-		
-    -- Excerpts from <i>Les Miserables</i>, <i>In Search of Lost Time</i> and <i>Wuthering Heights </i>and their translations obtained from Project Gutenberg <br>    
-		-- sentiment analysis performed with the  <a href="https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment">twitter-XLM-roBERTa-base </a> <br>
-		-- Data visualization performed with Flourish and Datawrapper. <br>
-		-- Code and data available on <a href="https://github.com/mfhan/translations" target="_blank">GitHub</a></i></p>
-		</p>
-</div>
+			<div><span style="font-weight: bold">Tools and Processes:</span> <br>
+
+				-- Excerpts from <i>Les Miserables</i>, <i>In Search of Lost Time</i> and <i>Wuthering Heights </i>and their
+				translations obtained from Project Gutenberg <br>
+				-- sentiment analysis performed with the <a
+					href="https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment">twitter-XLM-roBERTa-base </a> <br>
+				-- Data visualization performed with Flourish and Datawrapper. <br>
+				-- Code and data available on <a href="https://github.com/mfhan/translations" target="_blank">GitHub</a></i></p>
+				</p>
+			</div>
 
 
-<div class="column">
-<!-- <div class="container"> -->
+			<div class="column">
+				<!-- <div class="container"> -->
 
-		<h3 class="subtitle">Les Misérables: the Death of Gavroche</h3>
+				<h3 class="subtitle">Les Misérables: the Death of Gavroche</h3>
 
-		<p class="column">
-			Unforgettable to anyone who's read the rousing final volume of Victor Hugo's protean novel -- and anybody's who's seen the long-running musical comedy, the death of street urchin Gavroche represents the culmination of myriad injustices and cruelties endured by the dispossessed. </p>
-			<p>
-			The insurgency has failed, and the small group of students retrenched behind their crumbling barricades know their fate is sealed. 
-			Fast-talking, street-wise and intrepid Gavroche  ventures into the open, within shooting distance of the soldiers, in a desperate attempt to collect ammunition. He dances with death until, at last, he is hit by a sharpshooter's bullet. He continues to sing for a brief moment until a second bullet kills him.  
-		</p>
-		<p>The original French version and its English translation were carefully divided into 58 pieces of text, then analyzed by <i>twitter-XLM-roBERTa-base for Sentiment Analysis</i>, a multilingual model trained on almost 200 million tweets. </p>
-		<p>The French original is on the left, and the English translation on the right. 
-		Deep blue denotes a "positive" sentiment with a score of more than 0.5; light blue is "positive" with a score of less than 0.5; light gray is "neutral"; light red is a "negative" sentiment with a score of less than 0.5; and finally the deep red that dominates the French version means "negative" with a score of more than 0.5. 
-		<br>
-		<b>Click on a bar to see the text.</b> </p>
-		</div>
-		<!-- </div> -->
-		<!-- <div class="row-container"> -->
-		<!-- <div class="column graphic"> -->
-    <div class="columns is-multiline is-mobile"></div>
+				<p class="column">
+					Anyone who's read the rousing final volume of Victor Hugo's protean novel -- and anybody's who's
+					seen the long-running musical comedy, knows that this is a work full of tears, strife, suffering and
+					salvation.
+					Between the work houses, the prisons and the student riots, the body count is high and the wine flows.
+					But even with this colorful backdrop, the death of street urchin Gavroche represents the culmination of myriad
+					injustices and cruelties endured by the dispossessed. </p>
+				<p>
+					The insurgency has failed, and the small group of students retrenched behind their crumbling barricades know
+					their
+					fate is sealed.
+					Fast-talking, street-wise and intrepid Gavroche ventures into the open, within shooting distance of the
+					soldiers,
+					in a desperate attempt to collect ammunition. He dances with death until, at last, he is hit by a
+					sharpshooter's
+					bullet. He continues to sing for a brief moment until a second bullet kills him.
+				</p>
+				<p>The original French version and its English translation were carefully divided into 58 pieces of text, then
+					analyzed by <i>twitter-XLM-roBERTa-base for Sentiment Analysis</i>, a multilingual model trained on almost 200
+					million tweets. </p>
+				<p>The French original is on the left, and the English translation on the right.
+					Deep blue denotes a "positive" sentiment with a score of more than 0.5; light blue is "positive" with a score
+					of
+					less than 0.5; light gray is "neutral"; light red is a "negative" sentiment with a score of less than 0.5; and
+					finally the deep red that dominates the French version means "negative" with a score of more than 0.5.
+					<br>
+					<b>Click on a bar to see the text.</b>
+				</p>
+				</p>
+				<!-- </div> -->
+				<!-- <div class="row-container"> -->
+				<!-- <div class="column graphic"> -->
+				<div class="columns is-multiline is-mobile"></div>
 
 				<!-- <h3>French version:</h3> -->
-				<div class="flourish-embed flourish-heatmap" data-src="visualisation/14657032"  style="width:45%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script>
+				<div class="flourish-embed flourish-heatmap" data-src="visualisation/14657032"
+					style="width:45%; display: inline-block; vertical-align: top;">
+					<script src="https://public.flourish.studio/resources/embed.js"></script>
 				</div>
 
 				<!-- <h3>English Translation:</h3> -->
-			<div class="flourish-embed flourish-heatmap" data-src="visualisation/14656678" style="width:45%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-			
+				<div class="flourish-embed flourish-heatmap" data-src="visualisation/14656678"
+					style="width:45%; display: inline-block; vertical-align: top;">
+					<script src="https://public.flourish.studio/resources/embed.js"></script>
+				</div>
+
 			</div>
 			<!-- <div class="columns is-multiline is-mobile">
 			<p class="source">original edition xxxx ; translation xxxx</p>
 			</div> -->
-			
+
 		</div>
 
 		<div class="column">
 			<p class="column">
-			No need to be bilingual to be struck by the vast differences in sentiment between the two versions. Out of 58 text elements,  the English translation has 26 neutrals and just 28 negatives, while the French original has 41 negative labels and just 12 neutrals -- an unsurprising ration for a text that describes the death of a child. </p>
-			<p>The most striking discrepancy lies at the very end of the text, when a second bullet fatally strikes the wounded boy:</p>
-				<p><i>"This time he fell face downward on the pavement / and moved no more. / This grand little soul had taken its flight."</i></p>
-				<p>While the French version gets a "negative" label for all three pieces of text, with scores ranging from 0.48 to 0.69, the English text gets: "neutral" with a 0.52 score, "neutral" with a 0.54 score, and a puzzling "positive" with a 0.47 score. 
+				No need to be bilingual to be struck by the vast differences in sentiment between the two versions. Out of 58
+				text
+				elements, the English translation has 26 neutrals and just 28 negatives, while the French original has 41
+				negative
+				labels and just 12 neutrals -- an unsurprising ration for a text that describes the death of a child. </p>
+			<p>The most striking discrepancy lies at the very end of the text, when a second bullet fatally strikes the
+				wounded
+				boy:</p>
+			<p><i>"This time he fell face downward on the pavement / and moved no more. / This grand little soul had taken its
+					flight."</i></p>
+			<p>While the French version gets a "negative" label for all three pieces of text, with scores ranging from 0.48 to
+				0.69, the English text gets: "neutral" with a 0.52 score, "neutral" with a 0.54 score, and a puzzling "positive"
+				with a 0.47 score.
 			</p>
-			<p>What could explain such a contrast? Could it be that the twitter-XLM-roBERTa-base model, trained on the syntax and content of tweets, could fail to correctly interpret a work of fiction full of metaphors and emotion? </p>
+			<p>What could explain such a contrast? Could it be that the twitter-XLM-roBERTa-base model, trained on the syntax
+				and content of tweets, could fail to correctly interpret a work of fiction full of metaphors and emotion? </p>
 		</div>
-		
-   <div class="column">
-<h3 class="subtitle">Proust: The "Little Phrase"</h3>
-			<p class="column">How will the model analyze another work famous for its depiction of complex human emotions: Marcel Proust's titanic "In Search of Lost Time" hexalogy. 
-				In this passage, from "Swann's Way", the narrator's long-buried memories of a painful lost love are searingly, "maddeningly" awakened by a little musical phrase from a violin sonata. Even the harshest pang of suffering is intimately connected with the residual joy of lost love. 
-				</p>
-		<!-- </div> -->
 
-		<p>Here again, the original French version and its English translation were divided into 40 pieces of text and analyzed by <i>twitter-XLM-roBERTa-base</i>. </p>
-		<p>The French original is on the left, and the English translation on the right. 
-		Again, deep blue denotes a "positive" sentiment with a score of more than 0.5; light blue is "positive" with a score of less than 0.5; light gray is "neutral"; light red is a "negative" sentiment with a score of less than 0.5; and deep red means "negative" with a score of more than 0.5. 
-		<br>
-		<b>Click on a bar to read the text.</b> </p>
+		<div class="column">
+			<h3 class="subtitle">Proust: The "Little Phrase"</h3>
+			<p class="column">How will the model analyze another work famous for its depiction of complex human emotions:
+				Marcel
+				Proust's titanic "In Search of Lost Time" hexalogy.
+				In this passage, from "Swann's Way", the narrator's long-buried memories of a painful lost love are searingly,
+				"maddeningly" awakened by a little musical phrase from a violin sonata. Even the harshest pang of suffering is
+				intimately connected with the residual joy of lost love.
+			</p>
+			<!-- </div> -->
+
+			<p>Here again, the original French version and its English translation were divided into 40 pieces of text and
+				analyzed by <i>twitter-XLM-roBERTa-base</i>. </p>
+			<p>The French original is on the left, and the English translation on the right.
+				Again, deep blue denotes a "positive" sentiment with a score of more than 0.5; light blue is "positive" with a
+				score of less than 0.5; light gray is "neutral"; light red is a "negative" sentiment with a score of less than
+				0.5; and deep red means "negative" with a score of more than 0.5.
+				<br>
+				<b>Click on a bar to read the text.</b>
+			</p>
 		</div>
 		<!-- </div> -->
 		<!-- <div class="row-container"> -->
 		<!-- <div class="column graphic"> -->
-    <div class="columns is-multiline is-mobile">
+		<div class="columns is-multiline is-mobile">
 
-				<div class="flourish-embed flourish-heatmap" data-src="visualisation/14657068" style="width:45%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+			<div class="flourish-embed flourish-heatmap" data-src="visualisation/14657068"
+				style="width:45%; display: inline-block; vertical-align: top;">
+				<script src="https://public.flourish.studio/resources/embed.js"></script>
+			</div>
 
 
-			<div class="flourish-embed flourish-heatmap" data-src="visualisation/14657063" style="width:45%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script>
+			<div class="flourish-embed flourish-heatmap" data-src="visualisation/14657063"
+				style="width:45%; display: inline-block; vertical-align: top;">
+				<script src="https://public.flourish.studio/resources/embed.js"></script>
 			</div>
 			<!-- <p class="source">original edition xxxx ; translation xxxx</p> -->
 		</div>
@@ -117,29 +175,80 @@
 
 		<div class="column">
 			<p class="column">
-			While the contrast is a bit less striking, it is undeniable that the original has more red bars of negative sentiment than the translation, which is dominated by neutrals. 
+				While the contrast is a bit less striking, it is undeniable that the original has more red bars of negative
+				sentiment than the translation, which is dominated by neutrals.
 			</p>
-			<p>The French version starts briskly: the red bars in the first 10 lines illustrate the physical reaction to the sudden recollection ("and this apparition tore him with such anguish / that his hand rose impulsively to his heart"). After fluttering in a desperate attempt to stave off the flood of memories (blues and neutrals in the middle section), it finally gives way to their "maddening" song -- in a confusing mix of pain and joy. </p>
-			<p>The model clearly finds the English version more neutral -- 23 of the 40 pieces, compared with only 9 negatives. The French version gets 18 negatives and 14 neutrals. </p>
+			<p>The French version starts briskly: the red bars in the first 10 lines illustrate the physical reaction to the
+				sudden recollection ("and this apparition tore him with such anguish / that his hand rose impulsively to his
+				heart"). After fluttering in a desperate attempt to stave off the flood of memories (blues and neutrals in the
+				middle section), it finally gives way to their "maddening" song -- in a confusing mix of pain and joy. </p>
+			<p>The model clearly finds the English version more neutral -- 23 of the 40 pieces, compared with only 9
+				negatives.
+				The French version gets 18 negatives and 14 neutrals. </p>
 		</div>
 		<div class="column">
 			<!-- <p class="column">
 				Puzzling classifications: why does Roberta consider the final sentence a positive in french and a negative in English? Why xxxx? </p> -->
-				<p>
-					<p>still, puzzling labels abound: why is the phrase "wwhen Odette was in love with him" score a 0.6 negative in French, but a 0.65 neutral? And why is the model finding the final clause, "the forgotten strains of happiness", rate a negative 0.48 in English and a 0.66 positive in French?  </p>
-			Hugo, with his intentional digressions and infinite subplots, and Proust, with his spellbinding sentences, are equally challenging to translate. Perhaps the most important observation to draw from these contrasting results is that sentiment analysis, as well as translation, remain deeply subjective and culturally-informed disciplines. 
+			<p>
+			<p>still, puzzling labels abound: why is the phrase "wwhen Odette was in love with him" score a 0.6 negative in
+				French, but a 0.65 neutral? And why is the model finding the final clause, "the forgotten strains of happiness",
+				rate a negative 0.48 in English and a 0.66 positive in French? </p>
+		</div>
+		<div class="column">
+			<h3 class="subtitle">Turning the Tables: Wuthering Heights</h3>
+			<p class="column">For good measure, I decided to use the sentiment model on another emotionally-charged work of
+				fiction: Wuthering Heights. In this scene, Heathcliff reappears after a three-year absence. Everything has
+				changed -- his beloved Cathy is married to Edgar Linton, and his revenge plans are set. In a bit more than 40
+				slices of text, there is delight, longing, anger and self-destruction. Will the French translation successfully
+				convey this explosion of feelings, or will it water things down as we saw in our first two examples?
+			</p>
+			<!-- <p>Here again, the French translation and the English original were divided into 42 pieces of text and analyzed by
+				<i>twitter-XLM-roBERTa-base</i>. -->
+			</p>
+			<p>The French version is on the left, and the English on the right.
+				<br>
+				<b>Click on a bar to read the text.</b>
+			</p>
+		</div>
+
+		<div class="columns is-multiline is-mobile">
+
+			<div class="flourish-embed flourish-heatmap" data-src="visualisation/14677272"
+				style="width:45%; display: inline-block; vertical-align: top;">
+				<script src="https://public.flourish.studio/resources/embed.js"></script>
+			</div>
+
+			<div class="flourish-embed flourish-heatmap" data-src="visualisation/14677286"
+				style="width:45%; display: inline-block; vertical-align: top;">
+				<script src="https://public.flourish.studio/resources/embed.js"></script>
+			</div>
+			<!-- <p class="source">original edition xxxx ; translation xxxx</p> -->
+		</div>
+		<div class="column">
+			<p class="column">
+			</p>
+			<p>And yet again, a full half of the French text is negative, with just 11 neutrals and 10 positives. In the
+				English text, neutral labels represent half of the rows, with 17 negatives to and just 4 positives. </p>
+			<p>What can we conclude at this point is that, when it comes to literary translations, the Cardiff Roberta model
+				finds French sentences more polarized than their English counterparts. </p>
+
+
+			<p>Hugo, with his intentional digressions and infinite subplots, and Proust, with his spellbinding sentences, are
+				equally challenging to translate. Perhaps the most important observation to draw from these contrasting results
+				is that sentiment analysis, as well as translation, remain deeply subjective as culturally-informed disciplines.
 			</p>
 		</div>
 
 		<div class="column">
 			<p class="column">
-Code and data available on <a href="https://github.com/mfhan/translations" target="_blank">GitHub</a></i>
+				Code and data available on <a href="https://github.com/mfhan/translations" target="_blank">GitHub</a></i>
 			</p>
-			</div>
-     <br>
-		 
-		 <br>
-</div>
-	<!-- <script type='text/javascript' src="script.js"></script> -->
-</body>
+		</div>
+		<br>
+
+		<br>
+		</div>
+		<!-- <script type='text/javascript' src="script.js"></script> -->
+	</body>
+
 </html>
