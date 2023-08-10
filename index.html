@@ -68,7 +68,8 @@
 					salvation.
 					Between the work houses, the prisons and the student riots, the body count is high and the wine flows.
 					But even with this colorful backdrop, the death of street urchin Gavroche represents the culmination of all
-					the injustices and cruelties endured by the dispossessed. </p>
+					the injustices and cruelties endured by the dispossessed. It is the absolute moral low point of the entire
+					novel. It is only balanced out by the happiness of Cosette and Marius. </p>
 				<p>
 					The insurgency has failed, and the small group of students retrenched behind their crumbling barricades know
 					that their fate is sealed.
@@ -83,8 +84,8 @@
 					sentiment with a score of more than 0.5; light blue is "positive" with a score of less than 0.5; light gray is
 					"neutral"; light red is a "negative" sentiment with a score of less than 0.5; and finally the deep red that
 					dominates the French version means "negative" with a score of more than 0.5.
-					<br>
-					<b>Click on a bar to see the text.</b>
+					<br>In other words: blue is positive, red is negative, gray is neutral. <br>
+					<b>Click on any bar to read the actual text.</b>
 				</p>
 				</p>
 
@@ -117,7 +118,7 @@
 				text
 				elements, the English translation has 26 neutrals and just 28 negatives, while the French original has 41
 				negative
-				labels and just 12 neutrals -- an unsurprising ration for a text that describes the death of a child. </p>
+				labels and just 12 neutrals -- an unsurprising ratio for a text that describes the death of a child. </p>
 			<p>The most striking discrepancy lies at the very end of the text, when a second bullet fatally strikes the
 				wounded
 				boy:</p>
@@ -139,9 +140,10 @@
 			<p class="column">How will the model analyze another work famous for its depiction of complex human emotions:
 				Marcel
 				Proust's titanic "In Search of Lost Time" hexalogy.
-				In this passage, from "Swann's Way", the narrator's long-buried memories of a painful lost love are searingly,
+				In this passage, from the first novel, "Swann's Way", the narrator's long-buried memories of a painful lost love
+				are searingly,
 				"maddeningly" awakened by a little musical phrase from a violin sonata. Even the harshest pang of suffering is
-				intimately connected with the residual joy of lost love.
+				intimately connected with the remembered joy of lost love.
 			</p>
 			<!-- </div> -->
 
@@ -192,15 +194,17 @@
 				Puzzling classifications: why does Roberta consider the final sentence a positive in french and a negative in English? Why xxxx? </p> -->
 			<p>
 			<p>still, puzzling labels abound: why is the phrase "wwhen Odette was in love with him" score a 0.6 negative in
-				French, but a 0.65 neutral? And why is the model finding the final clause, "the forgotten strains of happiness",
+				French, but a 0.65 neutral in English? And why is the model finding the final clause, "the forgotten strains of
+				happiness",
 				rate a negative 0.48 in English and a 0.66 positive in French? </p>
 		</div>
 		<div class="column">
 			<h3 class="subtitle">Turning the Tables: Wuthering Heights</h3>
-			<p class="column">For good measure, I decided to use the sentiment model on another emotionally-charged work of
+			<p class="column">For good measure, I decided to explore an English-to-French translation, and use
+				<i>twitter-XLM-roBERTa-base</i> on another emotionally-charged work of
 				fiction: Wuthering Heights. In this scene, Heathcliff reappears after a three-year absence. Everything has
 				changed -- his beloved Cathy is married to Edgar Linton, and Heathcliff himself is a grown, somber man bent on
-				revenge. But when he sees her, their mutual delight consumes them.
+				revenge. But when he sees her, their mutual delight absolutely consumes them.
 			</p>
 			<p>
 				"They were too much absorbed in their mutual joy / to suffer embarrassment."
@@ -238,10 +242,15 @@
 			</p>
 			<p>And yet again, a full half of the French text is negative, with just 11 neutrals and 10 positives. In the
 				English text, neutral labels represent half of the rows, with 17 negatives to and just 4 positives. </p>
+			<P>Obviously this work was done on a teeny tiny sample. Much more would need to be done, and on several languages,
+				to draw any sort of conclusion about either overall sentiment differences between languages and/>or the way this
+				model analyses texts from another century.
+			</P>
 			<p>What can we conclude at this point is that, when it comes to literary translations, the Cardiff Roberta model
 				finds French sentences more polarized than their English counterparts. </p>
 			<p>Hugo, with his intentional digressions and infinite subplots, and Proust, with his spellbinding sentences, are
-				equally challenging to translate. No surprise, then, that models trained on modern sentences have trouble
+				equally challenging to translate into English. No surprise, then, that models trained on modern sentences have
+				trouble
 				labeling them consistently. Perhaps the most important observation to draw from these contrasting results is
 				that sentiment analysis, as well as translation, remain deeply subjective as culturally-informed disciplines.
 			</p>
