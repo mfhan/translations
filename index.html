@@ -51,7 +51,7 @@
 					-- sentiment analysis performed with the <a
 						href="https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment">twitter-XLM-roBERTa-base </a>
 					<br>
-					-- Data visualization performed with Flourish and Datawrapper. <br>
+					-- Data visualization performed with Flourish and D3/>Svelte. <br>
 					-- Code and data available on <a href="https://github.com/mfhan/translations" target="_blank">GitHub</a></i>
 				</p>
 			</div>
@@ -64,22 +64,27 @@
 
 				<p class="column">
 					Anyone who's read the rousing final volume of Victor Hugo's protean novel -- and anybody's who's
-					seen the long-running musical comedy -- knows that this is an epic full of tears, strife, suffering and
-					salvation.
-					Between the work houses, the prisons and the student riots, the body count is high and the wine flows.
+					seen the long-running musical comedy -- knows that this is an epic full of tears, death, suffering and
+					redemption.
+					Between the work houses, the prison labor camps and the student riots, the body count is high and the wine
+					flows.
 					But even with this colorful backdrop, the death of street urchin Gavroche represents the culmination of all
 					the injustices and cruelties endured by the dispossessed. It is the absolute moral low point of the entire
 					novel. It is only balanced out by the happiness of Cosette and Marius. </p>
 				<p>
 					The insurgency has failed, and the small group of students retrenched behind their crumbling barricades know
 					that their fate is sealed.
-					Fast-talking, street-wise and intrepid Gavroche ventures into the open, within shooting distance of the
+					Intrepid Gavroche ventures into the open, within shooting distance of the
 					soldiers, in a desperate attempt to collect ammunition. He dances with death until, at last, he is hit by a
-					marksman's bullet. He continues to sing for a brief moment until a second bullet kills him.
+					marksman's bullet. He continues to sing for a brief moment until a second bullet kills him. There's horror but
+					also playfulness, childish fun -- Gavroche feels invulnerable until he's shot dead.
 				</p>
 				<p>The original French version and its English translation were carefully divided into 58 pieces of text, then
 					analyzed by <i>twitter-XLM-roBERTa-base for Sentiment Analysis</i>, a multilingual model trained on almost 200
 					million tweets. </p>
+				<p>(RoBERTa, short for “Robustly Optimized BERT Approach”, is a variant of the BERT (Bidirectional Encoder
+					Representations from Transformers) model, which was developed at Facebook AI).
+				</p>
 				<p>The French original is on the left, and the English translation on the right. Deep blue denotes a "positive"
 					sentiment with a score of more than 0.5; light blue is "positive" with a score of less than 0.5; light gray is
 					"neutral"; light red is a "negative" sentiment with a score of less than 0.5; and finally the deep red that
@@ -104,12 +109,7 @@
 					style="width:45%; display: inline-block; vertical-align: top;">
 					<script src="https://public.flourish.studio/resources/embed.js"></script>
 				</div>
-
 			</div>
-			<!-- <div class="columns is-multiline is-mobile">
-			<p class="source">original edition xxxx ; translation xxxx</p>
-			</div> -->
-
 		</div>
 
 		<div class="column">
@@ -120,8 +120,7 @@
 				negative
 				labels and just 12 neutrals -- an unsurprising ratio for a text that describes the death of a child. </p>
 			<p>The most striking discrepancy lies at the very end of the text, when a second bullet fatally strikes the
-				wounded
-				boy:</p>
+				wounded boy:</p>
 			<p><i>"This time he fell face downward on the pavement / and moved no more. / This grand little soul had taken its
 					flight."</i></p>
 			<p>While the French version gets a "negative" label for all three pieces of text, with scores ranging from 0.48 to
@@ -131,13 +130,14 @@
 			<p>What could explain such a contrast? Could it be that the twitter-XLM-roBERTa-base model, trained on the syntax
 				and content of 21st-century tweets, fails to correctly interpret a work of 19th century fiction full of
 				metaphors and emotion? </p>
-			<p>Another hypothesis: would it be possible that, by nature, translations tend to lean toward a more neutral
+			<p>Another hypothesis: would it be possible that, by nature, translations tend to lean toward a safer, more
+				neutral
 				version of the same phrases and ideas? </p>
 		</div>
 
 		<div class="column">
 			<h3 class="subtitle">Proust: The "Little Phrase"</h3>
-			<p class="column">How will the model analyze another work famous for its depiction of complex human emotions:
+			<p class="column">Let's take another work famous for its depiction of complex human emotions:
 				Marcel
 				Proust's titanic "In Search of Lost Time" hexalogy.
 				In this passage, from the first novel, "Swann's Way", the narrator's long-buried memories of a painful lost love
@@ -199,12 +199,12 @@
 				rate a negative 0.48 in English and a 0.66 positive in French? </p>
 		</div>
 		<div class="column">
-			<h3 class="subtitle">Turning the Tables: Wuthering Heights</h3>
-			<p class="column">For good measure, I decided to explore an English-to-French translation, and use
+			<h3 class="subtitle">English to French: Wuthering Heights</h3>
+			<p class="column">For good measure, I decided to take a look at English-to-French translation, and use
 				<i>twitter-XLM-roBERTa-base</i> on another emotionally-charged work of
 				fiction: Wuthering Heights. In this scene, Heathcliff reappears after a three-year absence. Everything has
 				changed -- his beloved Cathy is married to Edgar Linton, and Heathcliff himself is a grown, somber man bent on
-				revenge. But when he sees her, their mutual delight absolutely consumes them.
+				revenge. But when he sees her, their shared delight consumes everything else.
 			</p>
 			<p>
 				"They were too much absorbed in their mutual joy / to suffer embarrassment."
@@ -249,10 +249,11 @@
 			<p>What can we conclude at this point is that, when it comes to literary translations, the Cardiff Roberta model
 				finds French sentences more polarized than their English counterparts. </p>
 			<p>Hugo, with his intentional digressions and infinite subplots, and Proust, with his spellbinding sentences, are
-				equally challenging to translate into English. No surprise, then, that models trained on modern sentences have
-				trouble
-				labeling them consistently. Perhaps the most important observation to draw from these contrasting results is
-				that sentiment analysis, as well as translation, remain deeply subjective as culturally-informed disciplines.
+				equally challenging to translate into English.
+				Sentiment analysis may very well be a way to test translation quality and translation effectiveness. As we know,
+				new translations are published all the time, to better fit the evolution of the
+				destination language. No surprise, then, that models trained on modern sentences have trouble
+				labeling them consistently. The possibilities are promising. The only limitation is time.
 			</p>
 		</div>
 
